@@ -10,6 +10,14 @@ literstogallons.textContent = "1 liter = 0.264 gallon | 1 gallon = 3.785 liters"
 kilostopounds.textContent = "1 kilogram = 2.204 pounds | 1 pound = 0.454 kilograms"
 
 button.addEventListener("click" , function convert(){
+
+    const value = Number(num.value)
+
+    if (!Number.isFinite(value)) {
+        alert("Wrong Input!")
+        return
+    }
+
     let feet = num.value * 3.281
     let meters = num.value * 0.305
     metertofeet.textContent = `${num.value} meters = ${feet.toFixed(3)} feet | ${num.value} feet = ${meters.toFixed(3)} meters`
