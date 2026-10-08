@@ -7,7 +7,7 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-color: #6943FF;
+    background-color: #606c38;
     
     
 }
@@ -22,7 +22,7 @@ input{
     color:whitesmoke;
     font-size: 70px;
     margin-top: 15px;
-    border: 2px solid #B295FF;
+    border: 3px solid #bc6c25;
     border-radius: 5px;
     padding: 8px;
     background-color: transparent;
